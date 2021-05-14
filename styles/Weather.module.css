@@ -1,0 +1,300 @@
+.s_weather_wrapper {
+    float: none;
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 19px;
+    height: 23px;
+    vertical-align: top;
+}
+
+.s_weather_wrapper .s_mod_weather {
+    margin: 0;
+    height: 23px;
+    line-height: 23px;
+    display: inline-block
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod {
+    display: true
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .city_wather {
+    display: inline-block
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .city_wather .show_city {
+    height: 23px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .city_wather .show_icon {
+    margin-right: 8px
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .city_wather .show_icon .weather_icon {
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    background-size: 100% 100%;
+    margin-right: 4px
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .city_wather .show_icon .show_icon_temp {
+    vertical-align: top
+}
+
+.s_weather_wrapper .s_mod_weather .weather_mod .show_pollution {
+    display: inline-block;
+    vertical-align: top;
+    height: 23px;
+    line-height: 23px
+}
+
+.show_pollution .show_pollution_name {
+    height: 16px;
+    color: #fff;
+    background: #4e71f2;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 2px
+}
+
+.s_weather_wrapper .s_mod_weather .unknown_city .unknown_icon {
+    color: #4e71f2;
+    font-size: 20px;
+    background: 0 0;
+    margin-right: 4px
+}
+
+.s_weather_wrapper .s_mod_weather .unknown_city .unknown_setting {
+    vertical-align: top;
+    color: #222
+}
+
+.s_weather_wrapper .s_mod_weather.hide_unknow_city .weather_mod {
+    display: block
+}
+
+.s_weather_wrapper .s_mod_weather.hide_unknow_city .unknown_city {
+    display: none
+}
+
+.s_weather_wrapper:hover a {
+    text-decoration: none
+}
+
+.s_weather_wrapper:hover .show_city_name, .s_weather_wrapper:hover .show_icon_temp {
+    color: #315efb
+}
+
+.s_weather_wrapper:hover .unknown_city .unknown_setting {
+    color: #315efb
+}
+
+.s_skin_hasbg .s_weather_wrapper .show_city_name, .s_skin_hasbg .s_weather_wrapper .show_icon_temp {
+    color: rgba(255, 255, 255, .85)
+}
+
+.s_skin_hasbg .s_weather_wrapper .unknown_city .unknown_setting {
+    color: rgba(255, 255, 255, .85)
+}
+
+.s_skin_hasbg .s_weather_wrapper:hover .show_city_name, .s_skin_hasbg .s_weather_wrapper:hover .show_icon_temp {
+    color: #fff
+}
+
+.s_skin_hasbg .s_weather_wrapper:hover .unknown_city .unknown_setting {
+    color: #fff
+}
+
+.s_mod_setweather {
+    position: absolute;
+    top: 48px;
+    right: 24px;
+    width: 496px;
+    z-index: 500;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .1);
+    text-align: left
+}
+
+.s_mod_setweather span {
+    user-select: none
+}
+
+.s_mod_setweather.hide {
+    display: none
+}
+
+.s_mod_setweather.show {
+    display: block
+}
+
+.s_mod_setweather.show_setting .setweather_content, .s_mod_setweather.show_setting .warn_icon_link {
+    display: none
+}
+
+.s_mod_setweather.hide_warning .warn_icon_link, .s_mod_setweather.hide_warning .warn_mod {
+    display: none
+}
+
+.s_mod_setweather.show_content .setweather_setting {
+    display: none
+}
+
+.s_mod_setweather .setweather_content {
+    padding: 12px 16px 16px
+}
+
+.s_mod_setweather .setweather_content .warn_mod {
+    height: 36px;
+    background: #f5f5f6;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-bottom: 12px
+}
+
+.s_mod_setweather .setweather_content .warn_mod .warn_mod_wrapper:hover .warn_title {
+    color: #315efb
+}
+
+.s_mod_setweather .setweather_content .warn_mod .warn_img_bg {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px
+}
+
+.s_mod_setweather .setweather_content .warn_mod .warn_title {
+    float: left;
+    margin-top: 6px;
+    margin-left: 10px
+}
+
+.s_mod_setweather .setweather_content .warn_mod .warn_title:hover {
+    text-decoration: none
+}
+
+.s_mod_setweather .setweather_content .lunar_mod .lunar_festival {
+    margin-left: 16px
+}
+
+.s_mod_setweather .setweather_content .lunar_mod .lunar_sevenday {
+    margin-left: 16px;
+    color: #315efb
+}
+
+.s_mod_setweather .setweather_content .lunar_mod .lunar_setting_btn {
+    float: right;
+    cursor: pointer
+}
+
+.s_mod_setweather .setweather_content .lunar_mod .lunar_setting_btn .c_icon {
+    color: #4e71f2;
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 18px;
+    margin-top: 3px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.s_mod_setweather .setweather_content .lunar_mod .lunar_setting_btn:hover .lunar_settint_text {
+    color: #315efb
+}
+
+.s_mod_setweather .setweather_content .everyday_mod {
+    text-align: center
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_item {
+    float: left;
+    width: 84px;
+    overflow: hidden;
+    margin-right: 11px;
+    margin-top: 13px;
+    padding: 5px 0
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_item:hover {
+    background: #f5f5f6;
+    border-radius: 6px
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_item:last-child {
+    margin-right: 0
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_icon {
+    width: 32px;
+    height: 32px;
+    margin: 3px auto;
+    display: block
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_condition, .s_mod_setweather .setweather_content .everyday_mod .everyday_temp, .s_mod_setweather .setweather_content .everyday_mod .everyday_wind {
+    font-size: 12px;
+    line-height: 22px
+}
+
+.s_mod_setweather .setweather_content .everyday_mod .everyday_condition, .s_mod_setweather .setweather_content .everyday_mod .everyday_wind {
+    margin-top: -2px
+}
+
+.s_mod_setweather .setweather_setting {
+    padding: 12px 16px 16px
+}
+
+.s_mod_setweather .setweather_setting .c_select {
+    width: 122px
+}
+
+.s_mod_setweather .setweather_setting .c_select_dropdown {
+    width: 120px
+}
+
+.s_mod_setweather .setweather_setting .setting_city_title {
+    text-align: left
+}
+
+.s_mod_setweather .setweather_setting .setting_city_select {
+    margin-top: 11px;
+    margin-bottom: 12px;
+    text-align: left
+}
+
+.s_mod_setweather .setweather_setting .setting_city_select .setting_city_province {
+    margin-right: 16px
+}
+
+.s_mod_setweather .setweather_setting .setting_extreme_weather {
+    text-align: left
+}
+
+.s_mod_setweather .setweather_setting .setting_extreme_weather .setting_extreme_weather_checkbox {
+    margin-bottom: 4px
+}
+
+.s_mod_setweather .setweather_setting .setting_extreme_weather .setting_extreme_weather_label {
+    display: inline-block;
+    padding-left: 8px
+}
+
+.s_mod_setweather .setweather_setting .setting_save_or_cancel {
+    margin-top: 15px;
+    text-align: left
+}
+
+.s_mod_setweather .setweather_setting .setting_save_or_cancel .setting_save {
+    margin-left: 16px
+}
+
+.s_mod_setweather .setweather_setting .setting_save_or_cancel .setting_cancel {
+    cursor: pointer
+}

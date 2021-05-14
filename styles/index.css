@@ -1,0 +1,143 @@
+html,
+body {
+  height: 100%;
+  /*setting this explicitly is important*/
+}
+
+main {
+  flex: 1 0 auto;
+  /*fill the available space*/
+  display: flex;
+  /*I just included this! - now a flex container with flex items: sidebar & main content section*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin: 0;
+}
+
+header {
+  flex: 0 0 auto;
+  height: 60px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  background: white;
+  line-height: 40px;
+  padding-top: 1px;
+  /* padding-left: 100px; */
+  text-align: center;
+  z-index: 302;
+}
+
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  font-family: "PingFang SC", Arial, "Microsoft YaHei", sans-serif;
+}
+
+@font-face {
+  font-family: "IcoFont";
+  font-weight: normal;
+  font-style: "Regular";
+  src: url("./icofont/fonts/icofont.woff2") format("woff2"),
+    url("./icofont/fonts/icofont.woff") format("woff");
+}
+
+/* 
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em{font-style:normal}
+small{font-size:12px}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+img{-ms-interpolation-mode:bicubic}
+textarea{resize:vertical}
+
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+button,label{cursor:pointer}
+pre.wordwrap{white-space:pre-wrap}
+body{text-align:center;background:#fff}
+body,form{position:relative;z-index:0}
+td{text-align:left}
+img{border:0}
+
+@font-face{font-family:cIconfont;src:url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_03f7028492.eot);src:url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_03f7028492.eot?#iefix) format('embedded_opentype'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_d312d35c5b.woff2) format('woff2'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_d187c4be30.woff) format('woff'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_81527e9464.ttf) format('truetype'),url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/font/iconfont_4816f3b73b.svg#iconfont) format('svg')}
+
+html{height:100%}
+body{height:100%;min-width:1250px;cursor:default} */

@@ -1,0 +1,20 @@
+.lh {
+    display: inline;
+    margin-right: 18px;
+}
+
+.lh .text_color {
+    color: #bbb;
+}
+
+.lh .text_color:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.lh a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.lh span {}

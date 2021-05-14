@@ -1,0 +1,143 @@
+.c_color_t {
+    color: #222;
+}
+
+.c_font_normal {
+    font: 13px/23px Arial, sans-serif;
+}
+
+.container {
+    flex: 1 0 auto;
+    /* background:black; */
+}
+
+.top_left {
+    margin-right: auto;
+    padding-left: 24px;
+}
+
+.top_right {
+    display: flex;
+    /* width: 30%; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    padding-right: 24px;
+}
+
+.mnav {
+    margin-right: 31px;
+    margin-top: 19px;
+    display: inline-block;
+    position: relative;
+}
+
+.weather {
+    float: none;
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 19px;
+    height: 23px;
+    vertical-align: top;
+}
+
+.show_city_name {
+    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.show_city_name:hover {
+    cursor: pointer;
+}
+
+.show_icon {
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.show_icon .weather_icon {
+    height: 23px;
+    width: 23px;
+}
+
+.show_pollution {
+    display: inline-block;
+    vertical-align: top;
+    height: 23px;
+    line-height: 23px;
+}
+
+.show_pollution_name {
+    height: 16px;
+    color: #fff;
+    background: #4e71f2;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 2px;
+}
+
+.show_icon_temp {
+    vertical-align: top;
+}
+
+.s_top_right_text {
+    margin-left: 32px;
+    margin-top: 19px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.s_top_username {
+    margin-left: 32px;
+    margin-top: 15px;
+    display: inline-block;
+    height: 30px;
+}
+
+.s_top_img_wrapper {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #4e71f2;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.s_top_img_wrapper img {
+    padding: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.s_top_username .user_name {
+    display: inline-block;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.s_news_rank_wrapper .s_news_rank_content .title_content .title_content_index {
+    height: 30px;
+    line-height: 30px;
+    background-size: 100% 100%;
+    text-align: left;
+    margin-right: 2px;
+    position: relative;
+    top: 1px;
+}
